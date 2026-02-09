@@ -6,7 +6,7 @@ const Register = () => {
   const navigate = useNavigate();
   const [isRedirecting, setIsRedirecting] = useState(false);
 
-  // สร้าง State สำหรับเลือกเพศ (default เป็นชาย)
+  // สร้าง State สำหรับเลือกเพศ (default เป็นชายนะ)
   const [gender, setGender] = useState("male");
 
   // ฟังก์ชันจัดการตอนกด "เข้าสู่ระบบ" ใน Toggle บน
