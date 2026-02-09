@@ -14,7 +14,7 @@ const Register = () => {
     setIsRedirecting(true);
     // รอให้ออนิเมชั่นสไลด์ทำงานเสร็จก่อนค่อยเปลี่ยนหน้า (300ms)
     setTimeout(() => {
-      navigate("/login");
+      navigate("login");
     }, 300);
   };
 
